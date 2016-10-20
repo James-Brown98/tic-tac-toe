@@ -8,7 +8,6 @@ module.exports = {
 var rows = []
 var collumns = []
 var diagonals = []
-var winner
 
 function mapRows(game){
   return game.map(function(row){
@@ -61,4 +60,7 @@ function isDiagonalWin(game){
       return true
     }
   }
+}
+function findWinValue(func){
+
 }
